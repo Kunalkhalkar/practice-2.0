@@ -1,0 +1,40 @@
+Q1. Write program to create class name as Factorial with two functions
+       void setValue(int x): this function accept number as parameter
+      int getFactorial(): this function can calculate factorial of number and return it.
+Q2. Write program to create class name as CheckChar with two functions
+        void setChar(char ch): this function accept single character as input
+      boolean checkChar(): this function can check character is alphabet or digit of special     symbol if
+     character is alphabet or digit return true if character is digit then return false.
+Q3. Write program to create class name as FindMax with two functions
+       void setArray(int a[]): this function is used for accept array as parameter
+       int getMax(): this function can find the max value from array and return it.
+Q4. Write program to create class name as Area with constructor overloading
+       Area(float radius): this function can accept radius as input and calculate circle Area
+      Area(int len,int width): this function can accept len and width as input and calculate area of rectangle
+Q5. Write program to create class name as MergeTwoArray with parameterized constructor
+      MergeTwoArray(int [],int []): this constructor accept two array as parameter
+      int [] getMergeArray(): this function merge two array in third array and return new merged    array
+6.Find All Pairs with Given Sum
+Concept: Use nested loops or two-pointer technique to check sums.
+ Use Case: Match contributors, tasks, etc., that add up to a budget.
+arr = [1, 5, 7, -1, 5]
+Target sum (S) = 6
+Example: Pairs with sum 6:
+(5, 1)
+(-1, 7)
+(5, 1)
+7.Find Majority Element (Occurs > n/2 Times)
+Concept: Use count method or Boyer-Moore Voting Algorithm.
+ Use Case: Identify the dominating product, preference, etc.
+Inut : arr = [2, 2, 1, 1, 2, 2, 2]
+Size (n) = 7
+Majority element is: 2
+
+8. Rearrange Array in Alternate Positive and Negative Items
+Concept: Use auxiliary arrays or index manipulation to interleave.
+ Use Case: Alternate scheduling, balancing data flow.
+Input: arr = [2, 3, -4, -1, 6, -9]
+ 
+Separate positives: [2, 3, 6]
+Separate negatives: [-4, -1, -9]
+Rearranged array: [2, -4, 3, -1, 6, -9]

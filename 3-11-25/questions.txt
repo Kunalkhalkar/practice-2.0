@@ -1,0 +1,34 @@
+1. Average of Elements
+Concept: First compute the sum, then divide by the number of elements.
+ arr = [10, 20, 30, 40, 50]
+Average of array elements: 30.0
+
+2.Search for an Element (Linear Search)
+Concept: Traverse array linearly and compare each value with the target.
+  
+arr = [10, 20, 30, 40, 50]
+Enter search key  : 30
+Output: value found
+Enter search key: 300
+Output: value not found 
+
+3.Count Frequency of Each Element
+Concept: Use nested loops or a hash map to count how often each number appears.
+ Example:  arr = [4, 5, 6, 4, 5, 7, 4]
+Output:
+Element 4 occurs 3 times 
+Element 5 occurs 2 times 
+Element 6 occurs 1 time 
+Element 7 occurs 1 time  
+
+4.Reverse an Array
+Concept: Swap elements from both ends moving toward the center.
+ Use Case: Invert order of operations or list of commands.
+Example: arr = [10, 20, 30, 40, 50]
+Reversed array: [50, 40, 30, 20, 10]
+
+5.Right Rotate an Array by 1 or K Positions
+Concept: Shift elements to the right and bring the last to front.
+ Use Case: Buffer manipulation.
+Input: arr = [10, 20, 30, 40, 50]
+Right rotated array by 2 positions: [40, 50, 10, 20, 30]

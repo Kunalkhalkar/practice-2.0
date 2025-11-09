@@ -1,0 +1,19 @@
+1.Write program to input two values using command line argument and perform its swapping?
+
+2.Write program to input number using Scanner class and reverse it?
+
+3.Write program to character from keyboard and check character is alphabet digit or special symbols?
+
+4.Write a program to input number and print its table?
+
+5.Write program to input number and check number is perfect or not?
+
+6.Write program to input number and check number is duck or not?
+
+7.Write a program to input number and check number is palindrome or not?
+
+8.Write program to input number and check number is Armstrong or not?
+
+9.Write program to check number is prime or not?
+
+10.Write program to input number using Scanner class and check this number duck or not?
