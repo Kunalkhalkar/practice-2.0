@@ -9,6 +9,6 @@ public class Divisible{
 		
 		int num = sc.nextInt();
 		String str = num % 5 == 0 && num % 11 ==0 ? "divided by both" : "not devided by both";
-		System.out.println(str	);
+		System.out.println(str);
 	}
 }
