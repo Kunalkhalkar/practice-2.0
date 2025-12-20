@@ -29,7 +29,7 @@ Example:
 		}
 		if(!flag){
 				System.out.print("index = "+ -1);
-		}
-		
+		}		
 	}
  }
+ 
