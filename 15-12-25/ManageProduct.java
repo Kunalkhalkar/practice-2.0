@@ -6,17 +6,21 @@ Explanation:
  import java.util.*;
  public class ManageProduct{
 	public static void main(String ...x){
-		Scaner sc  = Scanner(System.in);
-		System.out.println("Enter the id, name ,price of project");
+		Scanner sc  =new Scanner(System.in);
+		System.out.println("Enter the id, name ,price of Electronics product");
 		int id = sc.nextInt();
-		String name = sc.nextLine();
+		String name = sc.next();
 		double price = sc.nextDouble();
 		
 		Product p = new Electronics(id, name, price);
-		p.getFinalPrice();
+		System.out.println(p.getFinalPrice());
 		
+		System.out.println("Enter the id, name ,price of clothing product");
+		id = sc.nextInt();
+		name = sc.next();
+		price = sc.nextDouble();
 		p = new Clothing(id, name, price);
-		p.getFinalPrice();
+		System.out.println(p.getFinalPrice());
 		
 	}
  }
@@ -31,31 +35,27 @@ Explanation:
 		 this.price = price;
 	 }
 	 
-	 getFinalPrice(){
+	 double getFinalPrice(){
 		 return price;
 	 }
  }
  class Electronics extends Product{
 	 Electronics(int id, String name, double price){
-		 this.id = id;
-		 this.name = name;
-		 this.price = price;
+		 super(id, name, price);
 	 }
 	 
-	 getFinalPrice(){
+	 double getFinalPrice(){
 		 price =price - price * 0.20;
 		 return (price);
 	 }
  }
  class Clothing extends Product{
 	 Clothing(int id, String name, double price){
-		 this.id = id;
-		 this.name = name;
-		 this.price = price;
+		 super(id, name, price);
 	 }
 	 
-	 getFinalPrice(){
-		 this.price = price - price * 0.20;
+	 double getFinalPrice(){
+		 price = price - price * 0.20;
 		 return (price);
 	 }
  }
