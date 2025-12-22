@@ -22,6 +22,10 @@ class Employee{
 		this.salary = salary;
 	}
 	
+	double getSalary(){
+		return salary;
+	}
+	
 }
 
 class Manager extends Employee{
@@ -31,6 +35,9 @@ class Manager extends Employee{
 	
 	void calculateBonus(){
 		this.salary = salary * 1.20;
+	}
+	double getSalary(){
+		return this.salary;
 	}
 }
 
@@ -43,6 +50,9 @@ class Developer extends Employee{
 		this.salary = salary * 1.10;
 		
 	}
+	double getSalary(){
+		return this.salary;
+	}
 }
 
 public class EmployeeManage{
@@ -54,11 +64,13 @@ public class EmployeeManage{
 		
 		Employee m = new Manager(name, salary);
 		m.calculateBonus();
+		System.out.println(m.getSalary());
 		
 		System.out.println("Enter the name and salary of developer");
 		name = sc.nextLine();
 		salary = sc.nextDouble();
 		m = new Developer(name, salary);
 		m.calculteBonus();
+		System.out.println(m.getSalary());
 	}
 }
