@@ -20,3 +20,42 @@ Explanation:
 		
 	}
  }
+ class Product{
+	 protected int id;
+	 protected String name;
+	 protected double price;
+	 
+	 Product(int id, String name, double price){
+		 this.id = id;
+		 this.name = name;
+		 this.price = price;
+	 }
+	 
+	 getFinalPrice(){
+		 return price;
+	 }
+ }
+ class Electronics extends Product{
+	 Electronics(int id, String name, double price){
+		 this.id = id;
+		 this.name = name;
+		 this.price = price;
+	 }
+	 
+	 getFinalPrice(){
+		 price =price - price * 0.20;
+		 return (price);
+	 }
+ }
+ class Clothing extends Product{
+	 Clothing(int id, String name, double price){
+		 this.id = id;
+		 this.name = name;
+		 this.price = price;
+	 }
+	 
+	 getFinalPrice(){
+		 this.price = price - price * 0.20;
+		 return (price);
+	 }
+ }
