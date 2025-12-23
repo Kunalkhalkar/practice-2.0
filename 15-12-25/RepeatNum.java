@@ -1,4 +1,4 @@
-/*Q10. Write a program in java to find the maximum repeating number in a given array.
+`	/*Q10. Write a program in java to find the maximum repeating number in a given array.
 The array range is [0..n-1] and the elements are in the range [0..k-1] and k<=n..
  Expected Output:
  The given array is:
@@ -32,6 +32,7 @@ The array range is [0..n-1] and the elements are in the range [0..k-1] and k<=n.
 			if((int)e.getValue() > 1){
 				System.out.println(e.getKey() + " \t " +e.getValue());
 			}
+			
 		}
 	}
  }
