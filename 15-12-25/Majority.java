@@ -32,7 +32,9 @@ public class Majority{
 		}
 		System.out.println("key \t value");
 		
-		Set<Map.Entry> m = map.entrySet();
+		 Set<Map.Entry> m = map.entrySet();
+		// Map.Entry<Integer, Integer> m = map.entrySet();
+		
 		for(Map.Entry obj:m){
 			if((Integer)obj.getValue() >= (a.length/2)){
 				System.out.println((Integer)obj.getKey() + " \t " +(Integer)obj.getValue());
