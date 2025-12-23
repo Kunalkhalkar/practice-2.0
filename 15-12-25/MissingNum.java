@@ -18,23 +18,17 @@ public class MissingNum{
 		
 		if(n > 1){	
 		int a[] = new int[n-1];
+		int sum=0, aSum = 0;
 		
 		for(int i=0; i<a.length; i++){
 			a[i] = sc.nextInt();
+			sum += a[i];
 		}
-		
-		for(int i = 0; i<a.length; i++){
-			if(a[i] == (i+1)){
-				continue;
-			}
-			else{
-				System.out.println("Number not found: "+ (i+1));
-				break;
-			}
+		Arrays.sort(a);
+		for(int i = 1; i <= n; i++){
+			aSum += i;
 		}
-		
-		}else{
-			System.out.println("Enter minimum size > 1");
-		}
+		System.out.println("The Missing number is : "+(aSum - sum));
 	}
+}
 }
