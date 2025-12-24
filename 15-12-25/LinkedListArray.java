@@ -1,5 +1,5 @@
 /*
-
+array to String 
 */
 
 import java.util.*;
@@ -12,7 +12,6 @@ public class LinkedListArray{
 			a[i] = sc.nextInt();
 		}
 		System.out.println(Arrays.toString(a));
-		
 		
 	}
 	
