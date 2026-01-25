@@ -5,6 +5,6 @@
 */
 public class Series{
 	public static void main(String ...x){
-		for(int i=0, j=9; j>=1;System.out.print((i+=2) + "\t" + j*j*j +"\t"),j--){}
-	}
+		for(int i=0, j=9; j>=1;System.out.print((i+=2) + "\t" + j*j*j +"\t"),j--)
+	}	
 }
