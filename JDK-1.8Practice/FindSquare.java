@@ -10,10 +10,14 @@ public class FindSquare{
 		
 		Square sq = (int s) -> s*s;
 		
-		System.out.println(sq.CalSquare(n));
+		System.out.println(sq.calSquare(n));
+		
+		/*OR*/
+		
+		//System.out.println(((Square)(int d)-> d*d).calSquare(n));
 	}
 }
 
 interface Square {
-	int CalSquare(int n);
+	int calSquare(int n);
 }
