@@ -8,7 +8,7 @@ public class ThreadLambda{
 		System.out.println("Printing the 3's table");
 		
 		//this two threads not used
-		Runnable r =() -> {
+		/*Runnable r =() -> {
 			try {
 				for(int i=1; i<=10; i++){
 					System.out.println(i * 3);
@@ -31,6 +31,7 @@ public class ThreadLambda{
 				System.out.println("Exception occured in thread 2");
 			}
 		};
+		*/
 		
 		//Thread t = new Thread(r);
 		//Thread t1 = new Thread(r2);
