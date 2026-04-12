@@ -19,7 +19,6 @@ public class LambdaRun{
 				System.out.println(ex);
 				}
 			}
-			
 		};
 		Thread t = new Thread(r);
 		t.run();
