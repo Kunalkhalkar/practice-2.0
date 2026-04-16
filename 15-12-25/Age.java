@@ -14,6 +14,7 @@ public class Age{
 		if(age <1 || age > 120){
 			System.out.println("Not a Age");
 		}
+			
 		else if(age < 13){
 			System.out.println("child");
 		}
