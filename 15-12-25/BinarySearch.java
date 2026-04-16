@@ -18,10 +18,12 @@ Example:
 				flag = true;
 				break;
 			}
+				
 			else if(key > a[mid]){
 				i = mid+ 1;
 				mid = i+(j-i)/2;
 			}
+				
 			else if(key < a[mid]){
 				j = mid	-1;
 				mid = i+(j-i)/2;
