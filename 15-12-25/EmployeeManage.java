@@ -69,6 +69,7 @@ public class EmployeeManage{
 		System.out.println("Enter the name and salary of developer");
 		name = sc.nextLine();
 		salary = sc.nextDouble();
+		
 		m = new Developer(name, salary);
 		m.calculteBonus();
 		System.out.println(m.getSalary());
